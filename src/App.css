@@ -28,6 +28,36 @@
   color: #61dafb;
 }
 
+.add-product {
+  border: solid 1px #000;
+
+}
+
+.individual-product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.individual-product li {
+  list-style: none;
+  padding: .2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
